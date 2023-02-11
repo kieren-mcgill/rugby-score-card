@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    background-color: #1B244A;
+    border-radius: 10px;
+    color: #EEEEEE;
+    margin: 20px auto;
+    width: 500px;
+}
+
+.home-away {
+     display: flex;
+    justify-content: space-around;
+}
+
+.display {
+    background-color: black;
+    height: 100px;
+    margin: 20px;
+    text-align: right;
+    width: 160px;
+}
+
+h3 {
+    font-size: 2em;
+}
+
+p {
+    color: red;
+    font-family: digital-7;
+    font-size: 100px;
+    margin:0;
+}
+
+button {
+    background-color: #1B244A;
+    border: 2px solid #EEEEEE;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+}
+
+@font-face { font-family: digital-7; src: url('digital-7.ttf'); }
+
